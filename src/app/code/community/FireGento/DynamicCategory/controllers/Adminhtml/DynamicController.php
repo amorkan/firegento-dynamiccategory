@@ -29,6 +29,11 @@
 class FireGento_DynamicCategory_Adminhtml_DynamicController
     extends Mage_Adminhtml_Controller_Action
 {
+    protected function _isAllowed()
+    {
+      return Mage::getSingleton('admin/session')->isAllowed('catalog/dynamic_category');
+    }
+  
     /**
      * Returns the html code for a new condition in the resonse.
      *

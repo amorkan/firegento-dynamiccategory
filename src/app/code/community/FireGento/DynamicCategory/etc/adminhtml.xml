@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<adminhtml>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <catalog>
+                        <children>
+                            <dynamic_category translate="title">
+                                <title>Dynamic Category</title>
+                            </dynamic_category>
+                        </children>
+                    </catalog>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</adminhtml>
