@@ -1,9 +1,9 @@
 {
-  "name": "firegento/dynamiccategory",
+  "name": "amorkan/firegento_dynamiccategory",
   "license": ["GPL-3.0"],
   "type": "magento-module",
   "description": "This extension enables you to dynamically add products to categories based on product attributes.",
-  "homepage": "https://github.com/firegento/firegento-dynamiccategory",
+  "homepage": "https://github.com/amorkan/firegento-dynamiccategory",
   "require": {
     "magento-hackathon/magento-composer-installer": "*"
   },
